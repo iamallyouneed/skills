@@ -12,12 +12,14 @@ For more information, check out:
 
 # About This Repository
 
-Skills in this repo live under `./skills`, each self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses.
+Skills in this repo live under `./skills`, each self-contained in its own folder with a `SKILL.md` file (Claude instructions) and a `README.md` file (human-facing overview).
+Unstable work lives under `./skills/experimental/<skill-name>/` with the same `SKILL.md` + `README.md` layout.
 
 # Skill Sets
-- [./skills](./skills): Necessity skills
+- [./skills](./skills): Necessity skills (each skill: `SKILL.md` + `README.md`)
+- [./skills/experimental](./skills/experimental): Experimental staging area
 - [./spec](./spec): The Agent Skills specification
-- [./template](./template): Skill template
+- [./template](./template): Skill template (`SKILL.md` + `README.md`)
 
 # Try in Claude Code, Claude.ai, and the API
 
