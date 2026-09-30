@@ -1,0 +1,22 @@
+{
+  "name": "necessity-agent-skills",
+  "owner": {
+    "name": "Necessity",
+    "email": "hello@necessity.example"
+  },
+  "metadata": {
+    "description": "Necessity example skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "example-skills",
+      "description": "Starter collection of Necessity skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/example-skill"
+      ]
+    }
+  ]
+}
